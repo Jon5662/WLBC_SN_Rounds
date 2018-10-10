@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Rounds" max_length="40" name="x_216013_round_mai_rounds" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" label="Collection Type" mandatory="true" max_length="12" name="u_collection_type" type="string">
+            <choice>
+                <element label="Domestic" sequence="10" value="domestic"/>
+                <element label="Recycling" sequence="20" value="recycling"/>
+                <element label="Garden Waste" sequence="30" value="garden"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" label="Day" mandatory="true" max_length="10" name="u_day" type="integer">
+            <choice>
+                <element label="N/A" sequence="0" value="0"/>
+                <element label="Monday" sequence="10" value="1"/>
+                <element label="Tuesday" sequence="20" value="2"/>
+                <element label="Wednesday" sequence="30" value="3"/>
+                <element label="Thursday" sequence="40" value="4"/>
+                <element label="Friday" sequence="50" value="5"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="14" label="Frequency" mandatory="true" max_length="40" name="u_frequency" type="integer">
+            <choice>
+                <element label="N/A" sequence="0" value="0"/>
+                <element label="Weekly" sequence="10" value="7"/>
+                <element label="Fortnightly" sequence="20" value="14"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Long Description" mandatory="true" max_length="60" name="u_long_description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Short Description" mandatory="true" max_length="15" name="u_short_description" type="string"/>
+        <index name="index">
+            <element name="u_short_description"/>
+        </index>
+    </element>
+</database>

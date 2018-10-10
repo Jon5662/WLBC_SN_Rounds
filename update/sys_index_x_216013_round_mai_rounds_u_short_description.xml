@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_short_description</col_name_string>
+        <index_col_name element="u_short_description" name="x_216013_round_mai_rounds">cabc5ce24f13130036fc45dba310c706</index_col_name>
+        <logical_table_name>x_216013_round_mai_rounds</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-07-17 10:16:10</sys_created_on>
+        <sys_id>d177f0664f53130036fc45dba310c712</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_216013_round_mai_rounds</sys_name>
+        <sys_package display_value="Round Maintenance" source="x_216013_round_mai">f6bb14624f13130036fc45dba310c7ea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Round Maintenance">f6bb14624f13130036fc45dba310c7ea</sys_scope>
+        <sys_update_name>sys_index_x_216013_round_mai_rounds_u_short_description</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-17 10:16:10</sys_updated_on>
+        <table display_value="Rounds" name="x_216013_round_mai_rounds">3abb14624f13130036fc45dba310c7ea</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

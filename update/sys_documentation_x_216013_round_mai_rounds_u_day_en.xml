@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_day" label="Day" language="en" table="x_216013_round_mai_rounds">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_day</element>
+            <help/>
+            <hint/>
+            <label>Day</label>
+            <language>en</language>
+            <name>x_216013_round_mai_rounds</name>
+            <plural>Days</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-17 08:23:00</sys_created_on>
+            <sys_id>e38d98264f13130036fc45dba310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Day</sys_name>
+            <sys_package display_value="Round Maintenance" source="x_216013_round_mai">f6bb14624f13130036fc45dba310c7ea</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Round Maintenance">f6bb14624f13130036fc45dba310c7ea</sys_scope>
+            <sys_update_name>sys_documentation_x_216013_round_mai_rounds_u_day_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-17 08:23:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

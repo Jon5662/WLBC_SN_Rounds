@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Rounds" max_length="40" name="x_216013_round_mai_imp_rounds" type="collection">
+        <element attributes="import_attribute_name=ColType,edge_encryption_enabled=true" label="ColType" max_length="40" name="u_coltype" type="string"/>
+        <element attributes="import_attribute_name=DayInt,edge_encryption_enabled=true" label="DayInt" max_length="40" name="u_dayint" type="string"/>
+        <element attributes="import_attribute_name=Frequency,edge_encryption_enabled=true" label="Frequency" max_length="40" name="u_frequency" type="string"/>
+        <element attributes="import_attribute_name=LongDesc,edge_encryption_enabled=true" label="LongDesc" max_length="40" name="u_longdesc" type="string"/>
+        <element attributes="import_attribute_name=ShortDesc,edge_encryption_enabled=true" label="ShortDesc" max_length="40" name="u_shortdesc" type="string"/>
+    </element>
+</database>
